@@ -1,4 +1,5 @@
 Organizacion del proyecto
+<br>
 GestorFinanciero/
 │
 ├── backend/
