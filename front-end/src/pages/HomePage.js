@@ -5,7 +5,9 @@ function HomePage() {
 		<div className='bg-gray-100 min-h-screen text-gray-900 flex flex-col'>
 			<header className='bg-slate-800 text-white py-4'>
 				<div className='container mx-auto flex justify-between items-center px-4'>
-					<h1 className='text-2xl font-bold'>Ignacio Nicolas Melo</h1>
+					<h1 className='text-2xl font-bold mb-4 md:mb-0 mr-2'>
+						Ignacio Nicolas Melo
+					</h1>
 					<nav>
 						<ul className='flex space-x-4'>
 							<li>
@@ -59,17 +61,54 @@ function HomePage() {
 					className='bg-gray-200 py-16 px-4'>
 					<h2 className='text-3xl font-semibold mb-4'>Proyectos</h2>
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-						<div className='bg-white p-6 rounded-lg shadow-md'>
-							<h3 className='text-xl font-bold'>Proyecto 1</h3>
-							<p>Descripción del proyecto 1.</p>
+						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
+							<div className='flex items-center'>
+								<span className='material-icons text-2xl mr-2'>calculate</span>
+								<h3 className='text-xl font-bold'>
+									Automatización de Facturación para Estudio Contable
+								</h3>
+							</div>
+							<p>
+								Esta es un pequeño programa para un estudio contable que
+								necesitaba procesar archivos y subir ciertos datos de los mismos
+								a una hoja de google spreadsheets.
+							</p>
+							<a
+								href='https://github.com/nadienuncanada/FacturacionCalculator'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='text-blue-600 hover:underline'>
+								Ver código
+							</a>
 						</div>
-						<div className='bg-white p-6 rounded-lg shadow-md'>
-							<h3 className='text-xl font-bold'>Proyecto 2</h3>
-							<p>Descripción del proyecto 2.</p>
+						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
+							<div className='flex items-center'>
+								<span className='material-icons text-2xl mr-2'>
+									construction
+								</span>
+								<h3 className='text-xl font-bold'>Pagina Web Ferreteria</h3>
+							</div>
+							<p>
+								Proyecto realizado en la materia Ingenieria de Software,
+								aplicacion web creada para gestionar intercambio de productos de
+								ferreteria y compras dentro de la misma app con la API de
+								Mercado Pago{' '}
+							</p>
+							<a
+								href='https://github.com/ImportFromCBastian/fedeteria-front'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='text-blue-600 hover:underline'>
+								Ver código
+							</a>
 						</div>
-						<div className='bg-white p-6 rounded-lg shadow-md'>
+						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
 							<h3 className='text-xl font-bold'>Proyecto 3</h3>
 							<p>Descripción del proyecto 3.</p>
+						</div>
+						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
+							<h3 className='text-xl font-bold'>Proyecto 4</h3>
+							<p>Descripción del proyecto 4.</p>
 						</div>
 					</div>
 				</section>
