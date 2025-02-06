@@ -73,11 +73,22 @@ function HomePage() {
 								necesitaba procesar archivos y subir ciertos datos de los mismos
 								a una hoja de google spreadsheets.
 							</p>
+							<div className='flex space-x-2 mt-4'>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded hover:bg-gray-300'>
+									Python
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Selenium
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Google Spreadsheets API
+								</span>
+							</div>
 							<a
 								href='https://github.com/nadienuncanada/FacturacionCalculator'
 								target='_blank'
 								rel='noopener noreferrer'
-								className='text-blue-600 hover:underline'>
+								className='text-blue-600 hover:underline mt-4'>
 								Ver código
 							</a>
 						</div>
@@ -94,6 +105,17 @@ function HomePage() {
 								ferreteria y compras dentro de la misma app con la API de
 								Mercado Pago{' '}
 							</p>
+							<div className='flex space-x-2 mt-4'>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									React
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Node.js
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Express.js
+								</span>
+							</div>
 							<a
 								href='https://github.com/ImportFromCBastian/fedeteria-front'
 								target='_blank'
@@ -103,12 +125,133 @@ function HomePage() {
 							</a>
 						</div>
 						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
-							<h3 className='text-xl font-bold'>Proyecto 3</h3>
-							<p>Descripción del proyecto 3.</p>
+							<div className='flex items-center'>
+								<span className='material-icons text-2xl mr-2'>analytics</span>
+								<h3 className='text-xl font-bold'>Ejercitacion en BigData</h3>
+							</div>
+							<p>
+								Ejercicios y Trabajos Practicos de la materia Conceptos y
+								Aplicaciones en BigData, en donde se utilizaron herramientas
+								como Spark, SparkStreaming y Hadoop MapReduce.
+							</p>
+							<div className='flex space-x-2 mt-4'>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Python
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Spark
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded hover:bg-gray-300'>
+									Hadoop MapReduce
+								</span>
+							</div>
+							<a
+								href='https://github.com/nadienuncanada/BigData'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='text-blue-600 hover:underline'>
+								Ver código
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<section
+					id='courses'
+					className='bg-gray-200 py-16 px-4 mt-8'>
+					<h2 className='text-3xl font-semibold mb-4'>Cursos</h2>
+					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
+							<div className='flex items-center'>
+								<span className='material-icons text-2xl mr-2'>calculate</span>
+								<h3 className='text-xl font-bold'>
+									Automatización de Facturación para Estudio Contable
+								</h3>
+							</div>
+							<p>
+								Esta es un pequeño programa para un estudio contable que
+								necesitaba procesar archivos y subir ciertos datos de los mismos
+								a una hoja de google spreadsheets.
+							</p>
+							<div className='flex space-x-2 mt-4'>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded hover:bg-gray-300'>
+									Python
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Selenium
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Google Spreadsheets API
+								</span>
+							</div>
+							<a
+								href='https://github.com/nadienuncanada/FacturacionCalculator'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='text-blue-600 hover:underline mt-4'>
+								Ver código
+							</a>
 						</div>
 						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
-							<h3 className='text-xl font-bold'>Proyecto 4</h3>
-							<p>Descripción del proyecto 4.</p>
+							<div className='flex items-center'>
+								<span className='material-icons text-2xl mr-2'>
+									construction
+								</span>
+								<h3 className='text-xl font-bold'>Pagina Web Ferreteria</h3>
+							</div>
+							<p>
+								Proyecto realizado en la materia Ingenieria de Software,
+								aplicacion web creada para gestionar intercambio de productos de
+								ferreteria y compras dentro de la misma app con la API de
+								Mercado Pago{' '}
+							</p>
+							<div className='flex space-x-2 mt-4'>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									React
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Node.js
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Express.js
+								</span>
+							</div>
+							<a
+								href='https://github.com/ImportFromCBastian/fedeteria-front'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='text-blue-600 hover:underline'>
+								Ver código
+							</a>
+						</div>
+						<div className='bg-white p-6 rounded-lg shadow-md flex flex-col items-center'>
+							<div className='flex items-center'>
+								<span className='material-icons text-2xl mr-2'>analytics</span>
+								<h3 className='text-xl font-bold'>Ejercitacion en BigData</h3>
+							</div>
+							<p>
+								Ejercicios y Trabajos Practicos de la materia Conceptos y
+								Aplicaciones en BigData, en donde se utilizaron herramientas
+								como Spark, SparkStreaming y Hadoop MapReduce.
+							</p>
+							<div className='flex space-x-2 mt-4'>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Python
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded  hover:bg-gray-300'>
+									Spark
+								</span>
+								<span className='bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded hover:bg-gray-300'>
+									Hadoop MapReduce
+								</span>
+							</div>
+							<a
+								href='https://github.com/nadienuncanada/BigData'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='text-blue-600 hover:underline'>
+								Ver código
+							</a>
 						</div>
 					</div>
 				</section>
@@ -119,15 +262,18 @@ function HomePage() {
 					<h2 className='text-3xl font-semibold mb-8'>Contacto</h2>
 					<div className='space-y-6'>
 						<div className='flex items-center space-x-4'>
-							<span className='material-icons text-2xl'>email</span>
+							<span className='material-icons text-2xl '>email</span>
 							<label className='block text-lg'>
-								Email meloignacionicolas@gmail.com
+								Email:
+								<div>
+									<p>meloignacionicolas@gmail.com</p>
+								</div>
 							</label>
 						</div>
 						<div className='flex items-center space-x-4'>
 							<span className='material-icons text-2xl '>link</span>
 							<label className='block text-lg'>
-								LinkedIn{' '}
+								LinkedIn:
 								<div>
 									<a
 										href='https://www.linkedin.com/in/ignacio-melo-b2297a265/'
@@ -142,7 +288,7 @@ function HomePage() {
 						<div className='flex items-center space-x-4'>
 							<span className='material-icons text-2xl '>code</span>
 							<label className='block text-lg'>
-								GitHub{' '}
+								GitHub:
 								<div>
 									<a
 										href='https://github.com/nadienuncanada'
@@ -156,7 +302,12 @@ function HomePage() {
 						</div>
 						<div className='flex items-center space-x-4'>
 							<span className='material-icons text-2xl'>phone</span>
-							<label className='block text-lg'>Celular +54 221 6734354</label>
+							<label className='block text-lg'>
+								Celular:
+								<div>
+									<p>+54 221 6734354</p>
+								</div>
+							</label>
 						</div>
 					</div>
 				</section>
