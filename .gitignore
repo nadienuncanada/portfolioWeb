@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+#dataBase
+*.db
+*.sqlite3
