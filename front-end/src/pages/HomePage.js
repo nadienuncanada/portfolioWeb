@@ -49,17 +49,11 @@ function HomePage() {
 					className='container mx-auto py-16 px-4'>
 					<h2 className='text-3xl font-semibold mb-4'>Sobre mí</h2>
 					<p className='text-lg'>
-						"Me apasiona el mundo de los datos, sobre todo la cantidad que se
-						genera y existe hoy en día. Sabiendo que esta cantidad de
-						información tiene un gran potencial si se sabe cómo recopilar,
-						analizar y utilizar de manera adecuada. Creo que, al comprender los
-						patrones que los datos nos muestran, podemos mejorar productos y
-						servicios existentes, e incluso desarrollar soluciones innovadoras
-						para necesidades que aún no han sido cubiertas. Mi enfoque está en
-						explorar cómo los datos pueden ser transformados en oportunidades,
-						ya sea optimizando procesos, mejorando la experiencia del usuario o
-						creando nuevas ideas que impacten de manera positiva en el día a día
-						de los mismos."
+						"Soy estudiante de Informática en la UNLP y estoy cursando ATIC. 
+						Me gusta mucho todo lo relacionado con los datos y la automatización de procesos. 
+						Hoy en día se genera muchísima información, y creo que tiene un gran valor si se sabe cómo recopilarla, analizarla y usarla bien. 
+						Al entender los patrones que nos muestran los datos, podemos mejorar productos y servicios, e incluso crear soluciones nuevas para problemas que todavía no fueron resueltos.
+						Me interesa descubrir cómo aprovechar los datos para hacer las cosas más simples y eficientes, mejorar la experiencia de las personas o dar forma a ideas que puedan tener un impacto positivo en lo cotidiano."
 					</p>
 				</section>
 
