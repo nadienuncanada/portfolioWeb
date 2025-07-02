@@ -49,17 +49,14 @@ function HomePage() {
 					className='container mx-auto py-16 px-4'>
 					<h2 className='text-3xl font-semibold mb-4'>Sobre mí</h2>
 					<p className='text-lg'>
-						"Me apasiona el mundo de los datos, sobre todo la cantidad que se
-						genera y existe hoy en día. Sabiendo que esta cantidad de
-						información tiene un gran potencial si se sabe cómo recopilar,
-						analizar y utilizar de manera adecuada. Creo que, al comprender los
-						patrones que los datos nos muestran, podemos mejorar productos y
-						servicios existentes, e incluso desarrollar soluciones innovadoras
-						para necesidades que aún no han sido cubiertas. Mi enfoque está en
-						explorar cómo los datos pueden ser transformados en oportunidades,
-						ya sea optimizando procesos, mejorando la experiencia del usuario o
-						creando nuevas ideas que impacten de manera positiva en el día a día
-						de los mismos."
+						"Estudiante de Analista en Tecnologías de la Información y la
+						Comunicación en la UNLP, interesado en el área de desarrollo. Con
+						experiencia en desarrollo web, desarrollo de aplicaciones,
+						automatización y colaboración académica. Me considero una persona
+						con alto interés en aprender, con capacidad de aprendizaje rápido y
+						eficaz. Motivado a ampliar conocimientos en entornos profesionales.
+						Busco oportunidades que me permitan seguir creciendo como
+						desarrollador y conocer las distintas ramas de la informática."
 					</p>
 				</section>
 
